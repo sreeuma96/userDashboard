@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <div class="profile">
+                <img src="./images/my pic.jpg" alt="Profile Image">
+                <h1>O.V. Srikanth Reddy</h1>
+                <h2>FullStack Web Developer</h2>
+                <button>Edit profile</button>
+            </div>
+        </div>
+        <div class="pieChart-container">
+            <div class="pieChart">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+
+        <div class="graph-container">
+            <div class="graph">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+
+        <div class="calendar">
+            <img src="./images/Screenshot 2024-11-03 173533.png" alt="Calendar">
+        </div>
+        <div class="heading-element">
+            <h1>Projects</h1>
+            <div class="project-elements">
+                <div class="frontend">
+                    <h2>FrontEnd Projects</h2>
+                    <p>In FrontEnd Projects I have used HTML, CSS, and JavaScript.</p>
+                    <button onclick="openLink()">View details</button>
+                </div>
+                <div class="Backend">
+                    <h2>BackEnd Projects</h2>
+                    <p>Server-side development showcasing data management and core functionalities.</p>
+                    <button>View details</button>
+                </div>
+                <div class="cloud">
+                    <h2>Cloud Based Projects</h2>
+                    <p>Cloud computing allows access to storage, databases, and software over the internet.</p>
+                    <button>View details</button>
+                </div>
+                <div class="Freelance">
+                    <h2>Freelance Projects</h2>
+                    <p>Demonstrated ability to work in fast-paced environments while maintaining accuracy.</p>
+                    <button>View details</button>
+                </div>
+                <div class="data">
+                    <h2>Database Projects</h2>
+                    <p>Organized data collection for accessible, manageable, and updatable electronic data.</p>
+                    <button>View details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./myscripts.js"></script>
+</body>
+
+</html>
